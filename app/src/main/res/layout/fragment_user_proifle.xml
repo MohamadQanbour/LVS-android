@@ -1,0 +1,118 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.littlevillageschool.lvs.Activities.UserProifleFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:id="@+id/gridView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:clipToPadding="true"
+            android:columnCount="2"
+            android:useDefaultMargins="true">
+
+            <TextView
+                android:text="@string/name"/>
+
+            <TextView
+                android:id="@+id/fullNameTxtv"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="@string/email"/>
+
+            <TextView
+                android:id="@+id/emailTxtV"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text=""/>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/changPasswordBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridView1"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+            android:freezesText="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:text="@string/change_password"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/oldPasswordTxtLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/changPasswordBtn"
+            android:layout_marginTop="20dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/oldPasswordTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/old_password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/newPasswordTxtLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/oldPasswordTxtLayout"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/newPasswordTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/new_password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/submitChngPswrdBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newPasswordTxtLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:drawableRight="@drawable/ic_check_black_24dp"
+            android:paddingRight="20dp"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <com.github.silvestrpredko.dotprogressbar.DotProgressBar
+            android:id="@+id/dot_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/newPasswordTxtLayout"
+            app:amount="5"
+            android:visibility="gone"
+            app:duration="@android:integer/config_shortAnimTime"
+            app:endColor="@color/light_blue_A400"
+            app:startColor="@color/light_blue_A700"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_columnSpan="1"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:textDirection="rtl"
+    tools:context=".Activities.MainActivity">
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="أرقام المدرسة: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0988008222"/>
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:text=" - "/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0116010"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp">
+        
+        <TextView
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0988003222"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="المديرة الإدارية: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020430"/>
+       
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="المحاسبة: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020446"/>
+        
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="أمانة السر: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020445"/>
+        
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="مسؤول النقل: "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020444"/>
+        
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="شؤون الموظفين: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="093420441"/>
+        
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="مسؤول التطبيق:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0992112996"/>
+        
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="قسم الإنكليزي: "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0932611622"/>
+        
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="الحضانات: "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020436"/>
+
+        
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="صف أول وثاني: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020438"/>
+        
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="صف ثالث رابع خامس سادس: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020434"/>
+        
+    </TableRow> <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="إعدادي وثانوي: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:onClick="onClick"
+            android:text="0934020432"/>
+        
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/paymentNumberTxtV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        android:background="@drawable/payment_text_bg"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="1"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/paymentValueTxtV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="3"
+        android:background="@drawable/payment_text_bg"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="250000"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/paymentDateTxtV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="3"
+        android:background="@drawable/payment_text_bg"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="22/2/2222"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+

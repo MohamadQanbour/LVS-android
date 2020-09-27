@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_mail_outline_black_24dp"
+            android:title="@string/mail"
+            app:actionViewClass="android.widget.TextView"/>
+
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@drawable/ic_done_all_black_24dp"
+            android:title="@string/marks"/>
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="@string/notes"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_schadual"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:visible="false"
+            android:title="@string/schedule"/>
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="@string/payments"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_teachin_staff"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/teaching_staff"
+            android:visible="true"/>
+
+        <item
+            android:id="@+id/nav_Administrative_staff"
+            android:icon="@drawable/ic_people_outline_black_24dp"
+            android:title="@string/administrative_staff"
+            android:visible="true"/>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_call_us"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="@string/call_us"
+            android:visible="true"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="@string/about_us"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/profile"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/log_out"/>
+    </group>
+
+</menu>

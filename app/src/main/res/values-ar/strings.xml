@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LVS</string>
+    <string name="about_us">حول</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="administrative_staff">الكادر الإداري</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="contact_not_allowed_err_msg">لا يمكنك التواصل مع هذا المستخدم</string>
+    <string name="days">أيام</string>
+    <string name="delete">حذف</string>
+    <string name="dialog_title">إضافة رابط</string>
+    <string name="done">تم</string>
+    <string name="email">البريد الاكتروني</string>
+    <string name="empty_password_error">كلمة المرور لا يمكن الن تكون فارغة</string>
+    <string name="empty_user_error">اسم المستخدم لا يمكن ان يكون فارغ</string>
+    <string name="error">خطأ</string>
+    <string name="exit_msg">اضغط مرة اخرى للاغلاق</string>
+    <string name="forward">اعادة توجيه</string>
+    <string name="home">الرئيسة</string>
+    <string name="inbox">البريد الوارد</string>
+    <string name="inbox_is_empty">لا يوجد رسائل</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="mail">البريد</string>
+    <string name="marks">العلامات</string>
+    <string name="name">الأسم</string>
+    <string name="network_error_msg">خطأ في الاتصال بالإنترنت</string>
+    <string name="no_internet_error">لا يوجد اتصال بالإنترنت</string>
+    <string name="notes">الملاحظات</string>
+    <string name="old_passord_error">كلمة المرور القديمة</string>
+    <string name="outbox">البريد الصادر</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="payments">الاقساط</string>
+    <string name="present_days">أيام الحظور</string>
+    <string name="profile">الحساب الشخصي</string>
+    <string name="reply">رد</string>
+    <string name="reply_all">رد للكل</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="schedule">برنامج الدوام</string>
+    <string name="teaching_staff">الكادر التدريسي</string>
+    <string name="title_activity_compose_email">إنشاء رسالة</string>
+    <string name="title_activity_email_view">عرض رسالة</string>
+    <string name="user_id_hint">اسم المستخدم</string>
+    <string name="absence">الغيابات</string>
+    <string name="absence_days">أيام الغياب</string>
+    <string name="change_password">كلمة المرور القديمة</string>
+    <string name="recent_emails">الرسائل غير المقروءة</string>
+    <string name="confirm_delete">تأكيد الحذف</string>
+    <string name="confirm_delete_2">هل أنت متأكد أنك تريد حذف هذه الرسالة؟</string>
+    <string name="empty_receiver_error">يجب تحديد شخص واحد على الأقل ليستلم الرسالة</string>
+    <string name="empty_title_eror">يجب تحديد موضوع للرسالة</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="no_absence_days">لا يوجد أيام غياب حتى اللحظة</string>
+    <string name="no_new_marks">لا يوجد علامات حتى اللحظة </string>
+    <string name="no_new_messages">لا يوجد رسائل حتى اللحظة</string>
+    <string name="old_password">كلمة السر القديمة</string>
+    <string name="date">أخر تحديث</string>
+    <string name="net_total">المتبقي</string>
+    <string name="no">الرقم</string>
+    <string name="total">القسط المدرسي</string>
+    <string name="total_payments">إجمالي الدفعات</string>
+    <string name="value">القيمة</string>
+    <string name="schedual_has_not_been_uploaded">لم يتم تحميل جدول الدوام بعد ...</string>
+    
+    <string name="alert">تنبيه</string>
+    <string name="permission_alert">لكي تتمكن من تنزيل الملف يجب السماح للتطبيق بالوصول الى الملفات</string>
+    
+    <string name="delete_old_version">حذف النسخة القديمة من التطبيق؟</string>
+    <string name="delete_old_version_msg">يوجد نسخة قديمة من التطبيق مثبتة على جهازك\nيرجى حذفها</string>
+
+
+</resources>
